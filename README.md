@@ -8,7 +8,7 @@ mvn clean install
 mvn clean install -DskipTests
 # Run using in-memory H2 database:
 mvn spring-boot:run
-# Run using PostgreSQL database in default port 5432:
+# Run using POSTRESQL database in default port 5432 (need to set user and password in application-postgres.properties):
 mvn spring-boot:run -Dspring-boot.run.profiles=postgres
 
 # Features:
